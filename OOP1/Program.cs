@@ -13,7 +13,7 @@ namespace OOP1
             product1.UnitPrice = 500;
             product1.UnitInStok = 3;
 
-            Product product2 = new Product { Id=2,CategoryId=5,UnitInStok=5,ProductName="Kalem",UnitPrice=35};
+            Product product2 = new Product { Id = 2, CategoryId = 5, UnitInStok = 5, ProductName = "Kalem", UnitPrice = 35 };
             ProductManager productManager = new ProductManager();
             productManager.Add(product1);
 
