@@ -10,7 +10,6 @@ namespace Methods
             double fiyat = 15;
             string aciklama = "Amasya elması";
 
-            string[] meyveler = new string[] { };
 
             Product product1 = new Product();
             product1.Adi = "Elma";
